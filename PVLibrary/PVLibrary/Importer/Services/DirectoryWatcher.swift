@@ -9,6 +9,7 @@
 import Foundation
 import PVSupport
 import ZipArchive
+import SSZipArchive
 
 public typealias PVExtractionStartedHandler = (_ path: URL) -> Void
 public typealias PVExtractionUpdatedHandler = (_ path: URL, _ entryNumber: Int, _ total: Int, _ progress: Float) -> Void

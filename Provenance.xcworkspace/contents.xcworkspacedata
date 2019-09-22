@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "container:Provenance.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:PVLibrary/PVLibrary.xcodeproj">
    </FileRef>
    <FileRef
@@ -62,4 +59,10 @@
          location = "group:Cores/Yabause/PVYabause.xcodeproj">
       </FileRef>
    </Group>
+   <FileRef
+      location = "group:Provenance.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
 </Workspace>

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0592894F1DC194FD0012644D /* RealTimeThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 0592894E1DC194FD0012644D /* RealTimeThread.m */; };
+		735E0D7B4EBE2AC4F76C154A /* Pods_PVSupport_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C4153B4B83089A34C9F0341 /* Pods_PVSupport_tvOS.framework */; };
 		B302F8A020B73D6500C5E502 /* PVCocoaLumberJackLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = B302F89820B73D5F00C5E502 /* PVCocoaLumberJackLogging.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B302F8A120B73D6500C5E502 /* PVCocoaLumberJackLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = B302F89820B73D5F00C5E502 /* PVCocoaLumberJackLogging.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B302F8A320B73D6500C5E502 /* PVLogEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = B302F89920B73D5F00C5E502 /* PVLogEntry.m */; };
@@ -57,14 +58,6 @@
 		B3532B3521A7B736006CDA0F /* PVSupportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3532B3421A7B736006CDA0F /* PVSupportTests.swift */; };
 		B3532B3721A7B736006CDA0F /* PVSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C96ED81D62C5E7003F1E93 /* PVSupport.framework */; };
 		B3532B3F21A7B753006CDA0F /* PVSettingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3532B3E21A7B753006CDA0F /* PVSettingsTests.swift */; };
-		B3532B4D21A7C098006CDA0F /* CocoaLumberjack.framework in Carthage Copy */ = {isa = PBXBuildFile; fileRef = B3721CFA2191338300433E4C /* CocoaLumberjack.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		B3532B4E21A7C098006CDA0F /* CocoaLumberjackSwift.framework in Carthage Copy */ = {isa = PBXBuildFile; fileRef = B3721CFF2191338300433E4C /* CocoaLumberjackSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		B3532B4F21A7C098006CDA0F /* NSLogger.framework in Carthage Copy */ = {isa = PBXBuildFile; fileRef = B3721D032191338300433E4C /* NSLogger.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		B3532B5021A7C098006CDA0F /* NSLoggerSwift.framework in Carthage Copy */ = {isa = PBXBuildFile; fileRef = B3721CF92191338200433E4C /* NSLoggerSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		B3532B5121A7CA58006CDA0F /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3721CFA2191338300433E4C /* CocoaLumberjack.framework */; };
-		B3532B5221A7CA58006CDA0F /* CocoaLumberjackSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3721CFF2191338300433E4C /* CocoaLumberjackSwift.framework */; };
-		B3532B5321A7CA58006CDA0F /* NSLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3721D032191338300433E4C /* NSLogger.framework */; };
-		B3532B5421A7CA58006CDA0F /* NSLoggerSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3721CF92191338200433E4C /* NSLoggerSwift.framework */; };
 		B3532C3621A925C2006CDA0F /* SortOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3532C3521A925C1006CDA0F /* SortOption.swift */; };
 		B3532C3721A925C2006CDA0F /* SortOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3532C3521A925C1006CDA0F /* SortOption.swift */; };
 		B35E6C38207EE15D0040709A /* CoreOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35E6C36207EE15D0040709A /* CoreOptions.swift */; };
@@ -103,14 +96,6 @@
 		B3AF700C21916B41000FA7F9 /* XCDLumberjackNSLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = B3AF700921916B41000FA7F9 /* XCDLumberjackNSLogger.h */; };
 		B3AF700D21916B41000FA7F9 /* XCDLumberjackNSLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = B3AF700A21916B41000FA7F9 /* XCDLumberjackNSLogger.m */; };
 		B3AF700E21916B41000FA7F9 /* XCDLumberjackNSLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = B3AF700A21916B41000FA7F9 /* XCDLumberjackNSLogger.m */; };
-		B3B104F82191851900210C39 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3721CFA2191338300433E4C /* CocoaLumberjack.framework */; };
-		B3B104F92191851900210C39 /* CocoaLumberjackSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3721CFF2191338300433E4C /* CocoaLumberjackSwift.framework */; };
-		B3B104FA2191851900210C39 /* NSLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3721D032191338300433E4C /* NSLogger.framework */; };
-		B3B104FB2191851900210C39 /* NSLoggerSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3721CF92191338200433E4C /* NSLoggerSwift.framework */; };
-		B3B105102191855200210C39 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B1050E2191854A00210C39 /* CocoaLumberjack.framework */; };
-		B3B105112191855200210C39 /* CocoaLumberjackSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B1050B2191854A00210C39 /* CocoaLumberjackSwift.framework */; };
-		B3B105122191855200210C39 /* NSLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B105002191854900210C39 /* NSLogger.framework */; };
-		B3B105132191855200210C39 /* NSLoggerSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B1050C2191854A00210C39 /* NSLoggerSwift.framework */; };
 		B3C96EA71D62C3BE003F1E93 /* DebugUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A4E718C1A6C699F005CA80F /* DebugUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B3C96EA81D62C3C3003F1E93 /* OEGameAudio.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ACEA69117F748F80031B1C9 /* OEGameAudio.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B3C96EA91D62C3C3003F1E93 /* OEGameAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACEA69217F748F80031B1C9 /* OEGameAudio.m */; };
@@ -165,10 +150,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				B3532B4D21A7C098006CDA0F /* CocoaLumberjack.framework in Carthage Copy */,
-				B3532B4E21A7C098006CDA0F /* CocoaLumberjackSwift.framework in Carthage Copy */,
-				B3532B4F21A7C098006CDA0F /* NSLogger.framework in Carthage Copy */,
-				B3532B5021A7C098006CDA0F /* NSLoggerSwift.framework in Carthage Copy */,
 			);
 			name = "Carthage Copy";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -186,6 +167,9 @@
 		1ACEA69617F748F80031B1C9 /* TPCircularBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPCircularBuffer.h; sourceTree = "<group>"; };
 		1ACEA6A017F74A5A0031B1C9 /* NSObject+PVAbstractAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+PVAbstractAdditions.h"; sourceTree = "<group>"; };
 		1ACEA6A117F74A5A0031B1C9 /* NSObject+PVAbstractAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PVAbstractAdditions.m"; sourceTree = "<group>"; };
+		5FCD7A676D42CD0B5B982FF9 /* Pods-PVSupport-tvOS.archive.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PVSupport-tvOS.archive.xcconfig"; path = "Target Support Files/Pods-PVSupport-tvOS/Pods-PVSupport-tvOS.archive.xcconfig"; sourceTree = "<group>"; };
+		716261502336F7E400BBD74B /* CocoaLumberjack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CocoaLumberjack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C4153B4B83089A34C9F0341 /* Pods_PVSupport_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PVSupport_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B302F89820B73D5F00C5E502 /* PVCocoaLumberJackLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVCocoaLumberJackLogging.h; sourceTree = "<group>"; };
 		B302F89920B73D5F00C5E502 /* PVLogEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVLogEntry.m; sourceTree = "<group>"; };
 		B302F89A20B73D6200C5E502 /* PVLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVLogging.h; sourceTree = "<group>"; };
@@ -209,20 +193,6 @@
 		B3532B3E21A7B753006CDA0F /* PVSettingsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PVSettingsTests.swift; sourceTree = "<group>"; };
 		B3532C3521A925C1006CDA0F /* SortOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortOption.swift; sourceTree = "<group>"; };
 		B35E6C36207EE15D0040709A /* CoreOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreOptions.swift; sourceTree = "<group>"; };
-		B3721CF82191338200433E4C /* ZipArchive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZipArchive.framework; sourceTree = "<group>"; };
-		B3721CF92191338200433E4C /* NSLoggerSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NSLoggerSwift.framework; sourceTree = "<group>"; };
-		B3721CFA2191338300433E4C /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CocoaLumberjack.framework; sourceTree = "<group>"; };
-		B3721CFB2191338300433E4C /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxTest.framework; sourceTree = "<group>"; };
-		B3721CFC2191338300433E4C /* QuickTableViewController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QuickTableViewController.framework; sourceTree = "<group>"; };
-		B3721CFD2191338300433E4C /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxBlocking.framework; sourceTree = "<group>"; };
-		B3721CFE2191338300433E4C /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
-		B3721CFF2191338300433E4C /* CocoaLumberjackSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CocoaLumberjackSwift.framework; sourceTree = "<group>"; };
-		B3721D002191338300433E4C /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = "<group>"; };
-		B3721D012191338300433E4C /* HockeySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HockeySDK.framework; sourceTree = "<group>"; };
-		B3721D022191338300433E4C /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxSwift.framework; sourceTree = "<group>"; };
-		B3721D032191338300433E4C /* NSLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NSLogger.framework; sourceTree = "<group>"; };
-		B3721D042191338300433E4C /* RxAtomic.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxAtomic.framework; sourceTree = "<group>"; };
-		B3721D062191338300433E4C /* XLActionController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = XLActionController.framework; sourceTree = "<group>"; };
 		B3A74C8920522B04001D3D2E /* PVEmulatorCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PVEmulatorCore.swift; sourceTree = "<group>"; };
 		B3AB37872187F9A9009D9244 /* PViCadeGamepadDirectionPad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PViCadeGamepadDirectionPad.swift; sourceTree = "<group>"; };
 		B3AB37882187F9A9009D9244 /* iCadeControllerSetting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iCadeControllerSetting.swift; sourceTree = "<group>"; };
@@ -242,24 +212,6 @@
 		B3AF6FDE219161C0000FA7F9 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.1.sdk/System/Library/Frameworks/GameController.framework; sourceTree = DEVELOPER_DIR; };
 		B3AF700921916B41000FA7F9 /* XCDLumberjackNSLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCDLumberjackNSLogger.h; sourceTree = "<group>"; };
 		B3AF700A21916B41000FA7F9 /* XCDLumberjackNSLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCDLumberjackNSLogger.m; sourceTree = "<group>"; };
-		B3B104FD2191854800210C39 /* ZipArchive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZipArchive.framework; sourceTree = "<group>"; };
-		B3B104FE2191854800210C39 /* RxRealm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxRealm.framework; sourceTree = "<group>"; };
-		B3B104FF2191854800210C39 /* SwiftyUserDefaults.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftyUserDefaults.framework; sourceTree = "<group>"; };
-		B3B105002191854900210C39 /* NSLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NSLogger.framework; sourceTree = "<group>"; };
-		B3B105012191854900210C39 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
-		B3B105022191854900210C39 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxSwift.framework; sourceTree = "<group>"; };
-		B3B105042191854900210C39 /* QuickTableViewController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QuickTableViewController.framework; sourceTree = "<group>"; };
-		B3B105052191854900210C39 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = "<group>"; };
-		B3B105062191854900210C39 /* ZIPFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZIPFoundation.framework; sourceTree = "<group>"; };
-		B3B105072191854900210C39 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
-		B3B105082191854900210C39 /* SQLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SQLite.framework; sourceTree = "<group>"; };
-		B3B105092191854A00210C39 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxTest.framework; sourceTree = "<group>"; };
-		B3B1050A2191854A00210C39 /* HockeySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HockeySDK.framework; sourceTree = "<group>"; };
-		B3B1050B2191854A00210C39 /* CocoaLumberjackSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CocoaLumberjackSwift.framework; sourceTree = "<group>"; };
-		B3B1050C2191854A00210C39 /* NSLoggerSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NSLoggerSwift.framework; sourceTree = "<group>"; };
-		B3B1050D2191854A00210C39 /* RxAtomic.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxAtomic.framework; sourceTree = "<group>"; };
-		B3B1050E2191854A00210C39 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CocoaLumberjack.framework; sourceTree = "<group>"; };
-		B3B1050F2191854A00210C39 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxBlocking.framework; sourceTree = "<group>"; };
 		B3C96E9E1D62C3A3003F1E93 /* PVSupport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PVSupport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3C96EBA1D62C54D003F1E93 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3C96EBB1D62C54D003F1E93 /* PVSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVSupport.h; sourceTree = "<group>"; };
@@ -279,6 +231,8 @@
 		B3FA5D601D6B90BD00060D71 /* PVEmulatorCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVEmulatorCore.m; sourceTree = "<group>"; };
 		B3FA5D611D6B90BD00060D71 /* PVGameControllerUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVGameControllerUtilities.h; sourceTree = "<group>"; };
 		B3FA5D621D6B90BD00060D71 /* PVGameControllerUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVGameControllerUtilities.m; sourceTree = "<group>"; };
+		C816DE4DE0CB50D8FEB15206 /* Pods-PVSupport-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PVSupport-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-PVSupport-tvOS/Pods-PVSupport-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		FBD41BD69647DA3BBE2B4554 /* Pods-PVSupport-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PVSupport-tvOS.release.xcconfig"; path = "Target Support Files/Pods-PVSupport-tvOS/Pods-PVSupport-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -287,10 +241,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3532B3721A7B736006CDA0F /* PVSupport.framework in Frameworks */,
-				B3532B5121A7CA58006CDA0F /* CocoaLumberjack.framework in Frameworks */,
-				B3532B5221A7CA58006CDA0F /* CocoaLumberjackSwift.framework in Frameworks */,
-				B3532B5321A7CA58006CDA0F /* NSLogger.framework in Frameworks */,
-				B3532B5421A7CA58006CDA0F /* NSLoggerSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,10 +251,7 @@
 				B324C3162191963B009F4EDC /* AVFoundation.framework in Frameworks */,
 				B3AF6FDF219161C0000FA7F9 /* GameController.framework in Frameworks */,
 				B3AF6FDD219161BC000FA7F9 /* Foundation.framework in Frameworks */,
-				B3B105102191855200210C39 /* CocoaLumberjack.framework in Frameworks */,
-				B3B105112191855200210C39 /* CocoaLumberjackSwift.framework in Frameworks */,
-				B3B105122191855200210C39 /* NSLogger.framework in Frameworks */,
-				B3B105132191855200210C39 /* NSLoggerSwift.framework in Frameworks */,
+				735E0D7B4EBE2AC4F76C154A /* Pods_PVSupport_tvOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,10 +261,6 @@
 			files = (
 				B3AF6FDA2191616C000FA7F9 /* Foundation.framework in Frameworks */,
 				B3AF6FD821916168000FA7F9 /* GameController.framework in Frameworks */,
-				B3B104F82191851900210C39 /* CocoaLumberjack.framework in Frameworks */,
-				B3B104F92191851900210C39 /* CocoaLumberjackSwift.framework in Frameworks */,
-				B3B104FA2191851900210C39 /* NSLogger.framework in Frameworks */,
-				B3B104FB2191851900210C39 /* NSLoggerSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +290,7 @@
 				B3532B3321A7B736006CDA0F /* PVSupportTests */,
 				1ACEA64617F7467D0031B1C9 /* Frameworks */,
 				1ACEA64517F7467D0031B1C9 /* Products */,
+				F504C8BAE9C37EA6D1CA098D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -363,10 +307,10 @@
 		1ACEA64617F7467D0031B1C9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				716261502336F7E400BBD74B /* CocoaLumberjack.framework */,
 				B3AF6FE0219161C4000FA7F9 /* tvOS */,
 				B3AF6FDB21916177000FA7F9 /* iOS */,
-				B3721CF721912FDE00433E4C /* Carthage-tvOS */,
-				B3721CF621912F7800433E4C /* Carthage-iOS */,
+				9C4153B4B83089A34C9F0341 /* Pods_PVSupport_tvOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -463,54 +407,6 @@
 			path = PVSupportTests;
 			sourceTree = "<group>";
 		};
-		B3721CF621912F7800433E4C /* Carthage-iOS */ = {
-			isa = PBXGroup;
-			children = (
-				B3721CFA2191338300433E4C /* CocoaLumberjack.framework */,
-				B3721CFF2191338300433E4C /* CocoaLumberjackSwift.framework */,
-				B3721D012191338300433E4C /* HockeySDK.framework */,
-				B3721D032191338300433E4C /* NSLogger.framework */,
-				B3721CF92191338200433E4C /* NSLoggerSwift.framework */,
-				B3721CFC2191338300433E4C /* QuickTableViewController.framework */,
-				B3721CFE2191338300433E4C /* Realm.framework */,
-				B3721D042191338300433E4C /* RxAtomic.framework */,
-				B3721CFD2191338300433E4C /* RxBlocking.framework */,
-				B3721D002191338300433E4C /* RxCocoa.framework */,
-				B3721D022191338300433E4C /* RxSwift.framework */,
-				B3721CFB2191338300433E4C /* RxTest.framework */,
-				B3721D062191338300433E4C /* XLActionController.framework */,
-				B3721CF82191338200433E4C /* ZipArchive.framework */,
-			);
-			name = "Carthage-iOS";
-			path = ../Carthage/Build/iOS;
-			sourceTree = SOURCE_ROOT;
-		};
-		B3721CF721912FDE00433E4C /* Carthage-tvOS */ = {
-			isa = PBXGroup;
-			children = (
-				B3B1050E2191854A00210C39 /* CocoaLumberjack.framework */,
-				B3B1050B2191854A00210C39 /* CocoaLumberjackSwift.framework */,
-				B3B1050A2191854A00210C39 /* HockeySDK.framework */,
-				B3B105002191854900210C39 /* NSLogger.framework */,
-				B3B1050C2191854A00210C39 /* NSLoggerSwift.framework */,
-				B3B105042191854900210C39 /* QuickTableViewController.framework */,
-				B3B105072191854900210C39 /* Realm.framework */,
-				B3B105012191854900210C39 /* RealmSwift.framework */,
-				B3B1050D2191854A00210C39 /* RxAtomic.framework */,
-				B3B1050F2191854A00210C39 /* RxBlocking.framework */,
-				B3B105052191854900210C39 /* RxCocoa.framework */,
-				B3B104FE2191854800210C39 /* RxRealm.framework */,
-				B3B105022191854900210C39 /* RxSwift.framework */,
-				B3B105092191854A00210C39 /* RxTest.framework */,
-				B3B105082191854900210C39 /* SQLite.framework */,
-				B3B104FF2191854800210C39 /* SwiftyUserDefaults.framework */,
-				B3B104FD2191854800210C39 /* ZipArchive.framework */,
-				B3B105062191854900210C39 /* ZIPFoundation.framework */,
-			);
-			name = "Carthage-tvOS";
-			path = ../Carthage/Build/tvOS;
-			sourceTree = "<group>";
-		};
 		B3AB36DC2187F4C4009D9244 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -596,6 +492,17 @@
 			path = Features;
 			sourceTree = "<group>";
 		};
+		F504C8BAE9C37EA6D1CA098D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C816DE4DE0CB50D8FEB15206 /* Pods-PVSupport-tvOS.debug.xcconfig */,
+				FBD41BD69647DA3BBE2B4554 /* Pods-PVSupport-tvOS.release.xcconfig */,
+				5FCD7A676D42CD0B5B982FF9 /* Pods-PVSupport-tvOS.archive.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -678,6 +585,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3C96EA61D62C3A3003F1E93 /* Build configuration list for PBXNativeTarget "PVSupport-tvOS" */;
 			buildPhases = (
+				C2ADA1E7FF19F806D374292B /* [CP] Check Pods Manifest.lock */,
 				B3C96E9B1D62C3A3003F1E93 /* Headers */,
 				B3C96E991D62C3A3003F1E93 /* Sources */,
 				B3C96E9A1D62C3A3003F1E93 /* Frameworks */,
@@ -780,6 +688,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C2ADA1E7FF19F806D374292B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PVSupport-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B3532B2E21A7B736006CDA0F /* Sources */ = {
@@ -1064,7 +997,6 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../Carthage/Build/iOS";
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "PVSupport/PVSupport-Prefix.pch";
 				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
@@ -1092,6 +1024,7 @@
 		};
 		B324C53B2191A7A8009F4EDC /* Archive */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FCD7A676D42CD0B5B982FF9 /* Pods-PVSupport-tvOS.archive.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1106,7 +1039,6 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../Carthage/Build/tvOS";
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "PVSupport/PVSupport-Prefix.pch";
 				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
@@ -1143,7 +1075,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = 9DSA2J9CHZ;
-				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../Carthage/Build/iOS";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = PVSupportTests/Info.plist;
@@ -1178,7 +1109,6 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 9DSA2J9CHZ;
-				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../Carthage/Build/iOS";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = PVSupportTests/Info.plist;
@@ -1211,7 +1141,6 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 9DSA2J9CHZ;
-				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../Carthage/Build/iOS";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = PVSupportTests/Info.plist;
@@ -1232,6 +1161,7 @@
 		};
 		B3C96EA31D62C3A3003F1E93 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C816DE4DE0CB50D8FEB15206 /* Pods-PVSupport-tvOS.debug.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1245,7 +1175,6 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../Carthage/Build/tvOS";
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "PVSupport/PVSupport-Prefix.pch";
 				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
@@ -1273,6 +1202,7 @@
 		};
 		B3C96EA41D62C3A3003F1E93 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBD41BD69647DA3BBE2B4554 /* Pods-PVSupport-tvOS.release.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1287,7 +1217,6 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../Carthage/Build/tvOS";
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "PVSupport/PVSupport-Prefix.pch";
 				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
@@ -1329,7 +1258,6 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../Carthage/Build/iOS";
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "PVSupport/PVSupport-Prefix.pch";
 				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
@@ -1376,7 +1304,6 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../Carthage/Build/iOS";
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "PVSupport/PVSupport-Prefix.pch";
 				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;

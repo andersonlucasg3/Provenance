@@ -6,7 +6,7 @@
 //
 
 let TEST_THEMES = false
-import CocoaLumberjackSwift
+import CocoaLumberjack
 import CoreSpotlight
 import Crashlytics
 import Fabric

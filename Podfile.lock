@@ -1,0 +1,107 @@
+PODS:
+  - CocoaLumberjack (3.5.3):
+    - CocoaLumberjack/Core (= 3.5.3)
+  - CocoaLumberjack/Core (3.5.3)
+  - CocoaLumberjack/Swift (3.5.3):
+    - CocoaLumberjack/Core
+  - Crashlytics (3.14.0):
+    - Fabric (~> 1.10.2)
+  - Differentiator (4.0.1)
+  - Fabric (1.10.2)
+  - HockeySDK-tvOS (5.1.0)
+  - NSLogger (1.9.7):
+    - NSLogger/ObjC (= 1.9.7)
+  - NSLogger/ObjC (1.9.7)
+  - QuickTableViewController (1.2.0)
+  - ReachabilitySwift (4.3.1)
+  - Realm (3.18.0):
+    - Realm/Headers (= 3.18.0)
+  - Realm/Headers (3.18.0)
+  - RealmSwift (3.18.0):
+    - Realm (= 3.18.0)
+  - RxCocoa (5.0.0):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRealm (1.0.0):
+    - RealmSwift (~> 3.14)
+    - RxSwift (~> 5.0)
+  - RxRelay (5.0.0):
+    - RxSwift (~> 5)
+  - RxSwift (5.0.0)
+  - SQLite.swift (0.12.2):
+    - SQLite.swift/standard (= 0.12.2)
+  - SQLite.swift/standard (0.12.2)
+  - SSZipArchive (2.2.2)
+  - SteamController (1.0.3)
+  - SwiftyUserDefaults (4.0.0)
+  - ZipArchive (1.4.0)
+  - ZIPFoundation (0.9.9)
+
+DEPENDENCIES:
+  - CocoaLumberjack
+  - CocoaLumberjack/Swift
+  - Crashlytics
+  - Differentiator
+  - HockeySDK-tvOS
+  - NSLogger
+  - QuickTableViewController
+  - ReachabilitySwift
+  - RealmSwift
+  - RxCocoa
+  - RxRealm
+  - RxRelay
+  - SQLite.swift
+  - SSZipArchive
+  - SteamController
+  - SwiftyUserDefaults
+  - ZipArchive
+  - ZIPFoundation
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CocoaLumberjack
+    - Crashlytics
+    - Differentiator
+    - Fabric
+    - HockeySDK-tvOS
+    - NSLogger
+    - QuickTableViewController
+    - ReachabilitySwift
+    - Realm
+    - RealmSwift
+    - RxCocoa
+    - RxRealm
+    - RxRelay
+    - RxSwift
+    - SQLite.swift
+    - SSZipArchive
+    - SteamController
+    - SwiftyUserDefaults
+    - ZipArchive
+    - ZIPFoundation
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: 2f44e60eb91c176d471fdba43b9e3eae6a721947
+  Crashlytics: 540b7e5f5da5a042647227a5e3ac51d85eed06df
+  Differentiator: 886080237d9f87f322641dedbc5be257061b0602
+  Fabric: 706c8b8098fff96c33c0db69cbf81f9c551d0d74
+  HockeySDK-tvOS: 62e86233bfa7356c5ac5cd946816d1ca0e9033f6
+  NSLogger: cf3013a4fba189f631f07e6c3d5b8ce2b209654b
+  QuickTableViewController: 4730f2b4044e6b6805ee898e1794ecbb83898f20
+  ReachabilitySwift: 4032e2f59586e11e3b0ebe15b167abdd587a388b
+  Realm: 7b3d04740facf45e958a514b466a32b04f1113d6
+  RealmSwift: c817b5f374668cf08f649afb05f55d92a787649c
+  RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
+  RxRealm: 1e81dcfca1fb50c3e9b3e1f8102bc875c5156a2e
+  RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
+  RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
+  SQLite.swift: d2b4642190917051ce6bd1d49aab565fe794eea3
+  SSZipArchive: fa16b8cc4cdeceb698e5e5d9f67e9558532fbf23
+  SteamController: 23f08da1d9a0fa1d21d884c04a5c6a2af42838a0
+  SwiftyUserDefaults: 6a1951df1daa19337862b677dd9a4b9bd4c288cd
+  ZipArchive: e25a4373192673e3229ac8d6e9f64a3e5713c966
+  ZIPFoundation: 89df685c971926b0323087952320bdfee9f0b6ef
+
+PODFILE CHECKSUM: 24b7e5b5c23ecbacee8f9aa2f4a732357d48be7e
+
+COCOAPODS: 1.7.5

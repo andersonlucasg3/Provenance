@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		907022DC01895AAE7AF01A6D /* Pods_PVLibrary_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983376F66514215D7ADEE037 /* Pods_PVLibrary_tvOS.framework */; };
 		B3067F4B2106B5A30091437F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3067F4A2106B5A20091437F /* Foundation.framework */; };
 		B3067F5D2106B8590091437F /* OESQLiteDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = B3579D1E2106B4D600DDEBD6 /* OESQLiteDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B3067F5E2106B8590091437F /* OESQLiteDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = B3579D202106B4D600DDEBD6 /* OESQLiteDatabase.m */; settings = {COMPILER_FLAGS = "-Wno-everything"; }; };
@@ -84,8 +85,6 @@
 		B354E7CD219A7E620041F971 /* SystemProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B354E7CB219A7E620041F971 /* SystemProtocol.swift */; };
 		B354E7CF219A8EAF0041F971 /* LibrarySerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B354E7CE219A8EAF0041F971 /* LibrarySerializer.swift */; };
 		B354E7D0219A8EAF0041F971 /* LibrarySerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B354E7CE219A8EAF0041F971 /* LibrarySerializer.swift */; };
-		B378227121D40A360077E86F /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3AF6FCE21916106000FA7F9 /* RxSwift.framework */; };
-		B378227221D40A4C0077E86F /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3AF700621916979000FA7F9 /* RxSwift.framework */; };
 		B378227A21D41E1C0077E86F /* SavePackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378227921D41E1C0077E86F /* SavePackage.swift */; };
 		B378227B21D41E1C0077E86F /* SavePackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378227921D41E1C0077E86F /* SavePackage.swift */; };
 		B378227D21D41E310077E86F /* GamePackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378227C21D41E310077E86F /* GamePackage.swift */; };
@@ -427,6 +426,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		87F2C327E6743D8630BB2B2F /* Pods-PVLibrary-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PVLibrary-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-PVLibrary-tvOS/Pods-PVLibrary-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		983376F66514215D7ADEE037 /* Pods_PVLibrary_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PVLibrary_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3067F4A2106B5A20091437F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B3067F732106B9130091437F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		B3067F752106B9180091437F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
@@ -819,40 +820,6 @@
 		B3AF6FBA219160B9000FA7F9 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.1.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
 		B3AF6FBC219160BF000FA7F9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		B3AF6FBE219160C4000FA7F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		B3AF6FC021916105000FA7F9 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = tvOS/Realm.framework; sourceTree = "<group>"; };
-		B3AF6FC121916105000FA7F9 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = tvOS/RxTest.framework; sourceTree = "<group>"; };
-		B3AF6FC221916105000FA7F9 /* NSLoggerSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NSLoggerSwift.framework; path = tvOS/NSLoggerSwift.framework; sourceTree = "<group>"; };
-		B3AF6FC321916105000FA7F9 /* RxAtomic.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxAtomic.framework; path = tvOS/RxAtomic.framework; sourceTree = "<group>"; };
-		B3AF6FC421916105000FA7F9 /* NSLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NSLogger.framework; path = tvOS/NSLogger.framework; sourceTree = "<group>"; };
-		B3AF6FC521916105000FA7F9 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = tvOS/RxCocoa.framework; sourceTree = "<group>"; };
-		B3AF6FC621916105000FA7F9 /* CocoaLumberjackSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjackSwift.framework; path = tvOS/CocoaLumberjackSwift.framework; sourceTree = "<group>"; };
-		B3AF6FC821916105000FA7F9 /* SwiftyUserDefaults.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyUserDefaults.framework; path = tvOS/SwiftyUserDefaults.framework; sourceTree = "<group>"; };
-		B3AF6FC921916105000FA7F9 /* ZipArchive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZipArchive.framework; path = tvOS/ZipArchive.framework; sourceTree = "<group>"; };
-		B3AF6FCA21916106000FA7F9 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = tvOS/CocoaLumberjack.framework; sourceTree = "<group>"; };
-		B3AF6FCB21916106000FA7F9 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = tvOS/RxBlocking.framework; sourceTree = "<group>"; };
-		B3AF6FCC21916106000FA7F9 /* QuickTableViewController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTableViewController.framework; path = tvOS/QuickTableViewController.framework; sourceTree = "<group>"; };
-		B3AF6FCD21916106000FA7F9 /* HockeySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HockeySDK.framework; path = tvOS/HockeySDK.framework; sourceTree = "<group>"; };
-		B3AF6FCE21916106000FA7F9 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = tvOS/RxSwift.framework; sourceTree = "<group>"; };
-		B3AF6FCF21916106000FA7F9 /* ZIPFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZIPFoundation.framework; path = tvOS/ZIPFoundation.framework; sourceTree = "<group>"; };
-		B3AF6FD021916106000FA7F9 /* SQLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SQLite.framework; path = tvOS/SQLite.framework; sourceTree = "<group>"; };
-		B3AF6FF621916978000FA7F9 /* SQLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SQLite.framework; path = iOS/SQLite.framework; sourceTree = "<group>"; };
-		B3AF6FF721916978000FA7F9 /* QuickTableViewController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTableViewController.framework; path = iOS/QuickTableViewController.framework; sourceTree = "<group>"; };
-		B3AF6FF821916978000FA7F9 /* NSLoggerSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NSLoggerSwift.framework; path = iOS/NSLoggerSwift.framework; sourceTree = "<group>"; };
-		B3AF6FF921916978000FA7F9 /* HockeySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HockeySDK.framework; path = iOS/HockeySDK.framework; sourceTree = "<group>"; };
-		B3AF6FFA21916978000FA7F9 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = iOS/RxCocoa.framework; sourceTree = "<group>"; };
-		B3AF6FFB21916978000FA7F9 /* NSLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NSLogger.framework; path = iOS/NSLogger.framework; sourceTree = "<group>"; };
-		B3AF6FFC21916978000FA7F9 /* SwiftyUserDefaults.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyUserDefaults.framework; path = iOS/SwiftyUserDefaults.framework; sourceTree = "<group>"; };
-		B3AF6FFD21916978000FA7F9 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = iOS/RxTest.framework; sourceTree = "<group>"; };
-		B3AF6FFF21916978000FA7F9 /* XLActionController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XLActionController.framework; path = iOS/XLActionController.framework; sourceTree = "<group>"; };
-		B3AF700021916978000FA7F9 /* ZIPFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZIPFoundation.framework; path = iOS/ZIPFoundation.framework; sourceTree = "<group>"; };
-		B3AF700121916978000FA7F9 /* CocoaLumberjackSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjackSwift.framework; path = iOS/CocoaLumberjackSwift.framework; sourceTree = "<group>"; };
-		B3AF700221916978000FA7F9 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = iOS/Realm.framework; sourceTree = "<group>"; };
-		B3AF700321916978000FA7F9 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = iOS/RxBlocking.framework; sourceTree = "<group>"; };
-		B3AF700421916979000FA7F9 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = iOS/CocoaLumberjack.framework; sourceTree = "<group>"; };
-		B3AF700521916979000FA7F9 /* RxAtomic.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxAtomic.framework; path = iOS/RxAtomic.framework; sourceTree = "<group>"; };
-		B3AF700621916979000FA7F9 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = iOS/RxSwift.framework; sourceTree = "<group>"; };
-		B3AF700721916979000FA7F9 /* ZipArchive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZipArchive.framework; path = iOS/ZipArchive.framework; sourceTree = "<group>"; };
-		B3AF700821916979000FA7F9 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = iOS/RealmSwift.framework; sourceTree = "<group>"; };
 		B3AF701521916CF3000FA7F9 /* PVSupport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PVSupport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3C04B4421077B3100E7AF79 /* PVLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PVLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3C04B612107867200E7AF79 /* PVLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PVLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -862,6 +829,8 @@
 		B3CDEEAF21D493AC000C55F7 /* GameImporter2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameImporter2.swift; sourceTree = "<group>"; };
 		B3CDEEB221D497CD000C55F7 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		B3CDEECA21D4CF61000C55F7 /* DirectoryWatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectoryWatcher.swift; sourceTree = "<group>"; };
+		B85F8CDB628338562AE00EB1 /* Pods-PVLibrary-tvOS.archive.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PVLibrary-tvOS.archive.xcconfig"; path = "Target Support Files/Pods-PVLibrary-tvOS/Pods-PVLibrary-tvOS.archive.xcconfig"; sourceTree = "<group>"; };
+		D15AC05DEF0163280018E996 /* Pods-PVLibrary-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PVLibrary-tvOS.release.xcconfig"; path = "Target Support Files/Pods-PVLibrary-tvOS/Pods-PVLibrary-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -869,7 +838,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B378227221D40A4C0077E86F /* RxSwift.framework in Frameworks */,
 				B3AF701621916CF3000FA7F9 /* PVSupport.framework in Frameworks */,
 				B3067F762106B9190091437F /* MobileCoreServices.framework in Frameworks */,
 				B3067F742106B9130091437F /* CoreGraphics.framework in Frameworks */,
@@ -881,11 +849,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B378227121D40A360077E86F /* RxSwift.framework in Frameworks */,
 				B324C2ED219192FF009F4EDC /* PVSupport.framework in Frameworks */,
 				B3AF6FBF219160C4000FA7F9 /* Foundation.framework in Frameworks */,
 				B3AF6FBD219160BF000FA7F9 /* CoreGraphics.framework in Frameworks */,
 				B3AF6FBB219160B9000FA7F9 /* MobileCoreServices.framework in Frameworks */,
+				907022DC01895AAE7AF01A6D /* Pods_PVLibrary_tvOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -900,6 +868,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A601FE12F0BE0DA835A9923 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87F2C327E6743D8630BB2B2F /* Pods-PVLibrary-tvOS.debug.xcconfig */,
+				D15AC05DEF0163280018E996 /* Pods-PVLibrary-tvOS.release.xcconfig */,
+				B85F8CDB628338562AE00EB1 /* Pods-PVLibrary-tvOS.archive.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
 		B3067F492106B5A20091437F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -911,7 +890,7 @@
 				B378225F21D358180077E86F /* SWCompression.framework */,
 				B3AF6FB72191600A000FA7F9 /* iOS */,
 				B3AF6FB621916002000FA7F9 /* tvOS */,
-				B3AF6FA121915EE8000FA7F9 /* Carthage */,
+				983376F66514215D7ADEE037 /* Pods_PVLibrary_tvOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1028,6 +1007,7 @@
 				B3C04B622107867200E7AF79 /* PVLibraryTests */,
 				B3579D102106B11D00DDEBD6 /* Products */,
 				B3067F492106B5A20091437F /* Frameworks */,
+				3A601FE12F0BE0DA835A9923 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1605,64 +1585,6 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		B3AF6FA121915EE8000FA7F9 /* Carthage */ = {
-			isa = PBXGroup;
-			children = (
-				B3AF6FA321915F62000FA7F9 /* tvOS */,
-				B3AF6FA221915F5C000FA7F9 /* iOS */,
-			);
-			name = Carthage;
-			path = ../Carthage/Build;
-			sourceTree = SOURCE_ROOT;
-		};
-		B3AF6FA221915F5C000FA7F9 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				B3AF700421916979000FA7F9 /* CocoaLumberjack.framework */,
-				B3AF700121916978000FA7F9 /* CocoaLumberjackSwift.framework */,
-				B3AF6FF921916978000FA7F9 /* HockeySDK.framework */,
-				B3AF6FFB21916978000FA7F9 /* NSLogger.framework */,
-				B3AF6FF821916978000FA7F9 /* NSLoggerSwift.framework */,
-				B3AF6FF721916978000FA7F9 /* QuickTableViewController.framework */,
-				B3AF700221916978000FA7F9 /* Realm.framework */,
-				B3AF700821916979000FA7F9 /* RealmSwift.framework */,
-				B3AF700521916979000FA7F9 /* RxAtomic.framework */,
-				B3AF700321916978000FA7F9 /* RxBlocking.framework */,
-				B3AF6FFA21916978000FA7F9 /* RxCocoa.framework */,
-				B3AF700621916979000FA7F9 /* RxSwift.framework */,
-				B3AF6FFD21916978000FA7F9 /* RxTest.framework */,
-				B3AF6FF621916978000FA7F9 /* SQLite.framework */,
-				B3AF6FFC21916978000FA7F9 /* SwiftyUserDefaults.framework */,
-				B3AF6FFF21916978000FA7F9 /* XLActionController.framework */,
-				B3AF700721916979000FA7F9 /* ZipArchive.framework */,
-				B3AF700021916978000FA7F9 /* ZIPFoundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		B3AF6FA321915F62000FA7F9 /* tvOS */ = {
-			isa = PBXGroup;
-			children = (
-				B3AF6FCA21916106000FA7F9 /* CocoaLumberjack.framework */,
-				B3AF6FC621916105000FA7F9 /* CocoaLumberjackSwift.framework */,
-				B3AF6FCD21916106000FA7F9 /* HockeySDK.framework */,
-				B3AF6FC421916105000FA7F9 /* NSLogger.framework */,
-				B3AF6FC221916105000FA7F9 /* NSLoggerSwift.framework */,
-				B3AF6FCC21916106000FA7F9 /* QuickTableViewController.framework */,
-				B3AF6FC021916105000FA7F9 /* Realm.framework */,
-				B3AF6FC321916105000FA7F9 /* RxAtomic.framework */,
-				B3AF6FCB21916106000FA7F9 /* RxBlocking.framework */,
-				B3AF6FC521916105000FA7F9 /* RxCocoa.framework */,
-				B3AF6FCE21916106000FA7F9 /* RxSwift.framework */,
-				B3AF6FC121916105000FA7F9 /* RxTest.framework */,
-				B3AF6FD021916106000FA7F9 /* SQLite.framework */,
-				B3AF6FC821916105000FA7F9 /* SwiftyUserDefaults.framework */,
-				B3AF6FC921916105000FA7F9 /* ZipArchive.framework */,
-				B3AF6FCF21916106000FA7F9 /* ZIPFoundation.framework */,
-			);
-			name = tvOS;
-			sourceTree = "<group>";
-		};
 		B3AF6FB621916002000FA7F9 /* tvOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -1764,6 +1686,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3C04B4121077B3100E7AF79 /* Build configuration list for PBXNativeTarget "PVLibrary-tvOS" */;
 			buildPhases = (
+				EF4D1855C66E8D823C4571CD /* [CP] Check Pods Manifest.lock */,
 				B3C04A8C21077B3100E7AF79 /* Headers */,
 				B3C04A9B21077B3100E7AF79 /* Sources */,
 				B3C04B3121077B3100E7AF79 /* Frameworks */,
@@ -1866,6 +1789,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EF4D1855C66E8D823C4571CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PVLibrary-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B3579D0B2106B11D00DDEBD6 /* Sources */ = {
@@ -2320,10 +2268,6 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/../Carthage/Build/iOS",
-				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"LZMASDKOBJC=1",
 					"LZMASDKOBJC_OMIT_UNUSED_CODE=1",
@@ -2332,7 +2276,6 @@
 					"$(inherited)",
 					"\"$(DT_TOOLCHAIN_DIR)/usr/include\"",
 					/usr/include/libxml2,
-					"\"$(PROJECT_DIR)/../Carthage/Build/iOS\"",
 				);
 				INFOPLIST_FILE = PVLibrary/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -2353,6 +2296,7 @@
 		};
 		B324C5372191A78D009F4EDC /* Archive */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B85F8CDB628338562AE00EB1 /* Pods-PVLibrary-tvOS.archive.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -2363,10 +2307,6 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/../Carthage/Build/tvOS",
-				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"LZMASDKOBJC=1",
 					"LZMASDKOBJC_OMIT_UNUSED_CODE=1",
@@ -2375,7 +2315,6 @@
 					"$(inherited)",
 					"\"$(DT_TOOLCHAIN_DIR)/usr/include\"",
 					/usr/include/libxml2,
-					"\"$(PROJECT_DIR)/../Carthage/Build/tvOS\"",
 				);
 				INFOPLIST_FILE = PVLibrary/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -2400,10 +2339,6 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../Carthage/Build/iOS\"",
-				);
 				INFOPLIST_FILE = PVLibraryTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -2556,10 +2491,6 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/../Carthage/Build/iOS",
-				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"LZMASDKOBJC=1",
@@ -2569,7 +2500,6 @@
 					"$(inherited)",
 					"\"$(DT_TOOLCHAIN_DIR)/usr/include\"",
 					/usr/include/libxml2,
-					"\"$(PROJECT_DIR)/../Carthage/Build/iOS\"",
 				);
 				INFOPLIST_FILE = PVLibrary/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -2600,10 +2530,6 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/../Carthage/Build/iOS",
-				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"LZMASDKOBJC=1",
 					"LZMASDKOBJC_OMIT_UNUSED_CODE=1",
@@ -2612,7 +2538,6 @@
 					"$(inherited)",
 					"\"$(DT_TOOLCHAIN_DIR)/usr/include\"",
 					/usr/include/libxml2,
-					"\"$(PROJECT_DIR)/../Carthage/Build/iOS\"",
 				);
 				INFOPLIST_FILE = PVLibrary/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -2633,6 +2558,7 @@
 		};
 		B3C04B4221077B3100E7AF79 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87F2C327E6743D8630BB2B2F /* Pods-PVLibrary-tvOS.debug.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -2642,10 +2568,6 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/../Carthage/Build/tvOS",
-				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"LZMASDKOBJC=1",
 					"LZMASDKOBJC_OMIT_UNUSED_CODE=1",
@@ -2654,7 +2576,6 @@
 					"$(inherited)",
 					"\"$(DT_TOOLCHAIN_DIR)/usr/include\"",
 					/usr/include/libxml2,
-					"\"$(PROJECT_DIR)/../Carthage/Build/tvOS\"",
 				);
 				INFOPLIST_FILE = PVLibrary/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -2676,6 +2597,7 @@
 		};
 		B3C04B4321077B3100E7AF79 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D15AC05DEF0163280018E996 /* Pods-PVLibrary-tvOS.release.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -2686,10 +2608,6 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/../Carthage/Build/tvOS",
-				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"LZMASDKOBJC=1",
 					"LZMASDKOBJC_OMIT_UNUSED_CODE=1",
@@ -2698,7 +2616,6 @@
 					"$(inherited)",
 					"\"$(DT_TOOLCHAIN_DIR)/usr/include\"",
 					/usr/include/libxml2,
-					"\"$(PROJECT_DIR)/../Carthage/Build/tvOS\"",
 				);
 				INFOPLIST_FILE = PVLibrary/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -2723,10 +2640,6 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../Carthage/Build/iOS\"",
-				);
 				INFOPLIST_FILE = PVLibraryTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -2750,10 +2663,6 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../Carthage/Build/iOS\"",
-				);
 				INFOPLIST_FILE = PVLibraryTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (

@@ -7,7 +7,6 @@
 //
 
 import CocoaLumberjack
-import CocoaLumberjackSwift
 import Foundation
 
 extension DDLogFlag {
