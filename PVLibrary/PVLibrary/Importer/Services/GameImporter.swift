@@ -877,7 +877,7 @@ public extension GameImporter {
             if nonCharRange.length > 0, nonCharRange.location > 1 {
                 gameTitleLen = nonCharRange.location - 1
             } else {
-                gameTitleLen = fileName.count
+                gameTitleLen = fileName.count - 1
             }
             let subfileName = String(fileName.prefix(gameTitleLen))
             do {
